@@ -10,7 +10,7 @@ Its main purpose is only for fun and safe pranks on friends or anyone whos permi
 
 ## installation:
 ### Method 1:
- 1. Download the executable from [here]().
+ 1. Download the executable from [here](https://github.com/SpoiledUnknown/MultiSpamBot/releases/tag/v1.0.1).
  2. Double click the `MultiSpamBot.exe`.
     - If this doesn't works then open terminal at the location of the `MultiSpamBot.exe`.
     - Drag the `MultiSpamBot.exe` to the terminal windows.
@@ -22,7 +22,7 @@ Its main purpose is only for fun and safe pranks on friends or anyone whos permi
    
 ### Method 2:
 1. Download the source code.
-2. Install Python from [here]().
+2. Install Python from [here](https://www.python.org/downloads/).
 3. Open terminal at the location of source code.
 4. `cd` inside the source code in terminal.
 5. Run `pip install -r requirements.txt` to install dependencies.
