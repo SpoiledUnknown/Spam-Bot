@@ -1,6 +1,6 @@
 # SpamBot - Python Program
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/MultiSpamBot/blob/main/README.md)
+[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/Spam-Bot/blob/main/README.md)
 
 ## Description:
 A simple Multipurpose Spamming Bot, written in python.
@@ -9,8 +9,8 @@ A simple Multipurpose Spamming Bot, written in python.
 Its main purpose is only for fun and safe pranks on friends or anyone whos permission you have, I or any contributer of this project is not responsible for any damage, please use responsibly.
 
 ## installation:
-### Method 1:
- 1. Download the executable from [here](https://github.com/SpoiledUnknown/MultiSpamBot/releases/tag/v1.0.1).
+### Method 1 (Deprecated):
+ 1. Download the executable from [here](https://github.com/SpoiledUnknown/Spam-Bot/releases/tag/v1.0.1).
  2. Double click the `MultiSpamBot.exe`.
     - If this doesn't works then open terminal at the location of the `MultiSpamBot.exe`.
     - Drag the `MultiSpamBot.exe` to the terminal windows.
