@@ -1,6 +1,6 @@
 # MultiSpamBot - Python Program
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/Sports-Buzz)
+[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/MultiSpamBot/blob/main/README.md)
 
 ## Description:
 A simple Multipurpose Spamming Bot, written in python.
