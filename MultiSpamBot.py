@@ -35,21 +35,20 @@ def Spam():
     # giving user a warning to be ready one more time
     IsLoaded = input("Press enter when you are ready to spam.\n=> ")
     print("You have 10 seconds before spamming is started! Good Luck!")
-
     time.sleep(10)
 
 
     for i in range(0, repeats):
         if message != "":
             # paste the message
-            pyautogui.typewrite(message)
+            pyautogui.write(message)
             # and press enter
-            pyautogui.press("enter")
+            pyautogui.hotkey("enter")
         else:
             # press control + v to paste from clipboard
             pyautogui.hotkey('ctrl', 'v')
             # and then press enter
-            pyautogui.press("enter")
+            pyautogui.hotkey("enter")
 
         time.sleep(delay/1000)
 
