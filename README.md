@@ -1,4 +1,4 @@
-# MultiSpamBot - Python Program
+# SpamBot - Python Program
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/MultiSpamBot/blob/main/README.md)
 
