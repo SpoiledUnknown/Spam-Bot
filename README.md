@@ -1,5 +1,5 @@
 # SpamBot - Python Program
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)
 [![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/Spam-Bot/blob/main/README.md)
 
 <p align="center">
