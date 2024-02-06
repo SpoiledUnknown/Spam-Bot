@@ -14,7 +14,7 @@ Its main purpose is only for fun and safe pranks on friends or anyone whos permi
 
 ## installation:
 ### Method 1 (Recommended):
- 1. Download the executable from [here](https://github.com/SpoiledUnknown/Spam-Bot/releases/tag/v1.0.1).
+ 1. Download the executable from [here](https://github.com/SpoiledUnknown/Spam-Bot/releases/tag/v1.5.0).
  2. Double click the `SpamBot.exe`.
     - If this doesn't works then open terminal at the location of the `SpamBot.exe`.
     - Drag the `SpamBot.exe` to the terminal windows.
