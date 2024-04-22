@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a8d7ad40-87b9-4d0d-9417-a537ef308a7f}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>SpamBot.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="build\SpamBot\warn-SpamBot.txt" />
+    <Content Include="build\SpamBot\xref-SpamBot.html" />
+    <Content Include="dist\SpamBot\_internal\tk\images\logo100.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\logo64.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\logoLarge.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\logoMed.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\pwrdLogo100.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\pwrdLogo150.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\pwrdLogo175.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\pwrdLogo200.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\pwrdLogo75.gif" />
+    <Content Include="dist\SpamBot\_internal\tk\images\tai-ku.gif" />
+    <Content Include="requirements.txt" />
+    <Content Include="SpamBot.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dist\SpamBot\_internal\cv2\config-3.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\config.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\data\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\gapi\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\load_config_py3.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\mat_wrapper\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\misc\version.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\misc\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\typing\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\utils\__init__.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\version.py" />
+    <Compile Include="dist\SpamBot\_internal\cv2\__init__.py" />
+    <Compile Include="SpamBot.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\SpamBot" />
+    <Folder Include="dist\" />
+    <Folder Include="dist\SpamBot\" />
+    <Folder Include="dist\SpamBot\_internal\" />
+    <Folder Include="dist\SpamBot\_internal\cv2" />
+    <Folder Include="dist\SpamBot\_internal\cv2\data" />
+    <Folder Include="dist\SpamBot\_internal\cv2\gapi" />
+    <Folder Include="dist\SpamBot\_internal\cv2\mat_wrapper" />
+    <Folder Include="dist\SpamBot\_internal\cv2\misc" />
+    <Folder Include="dist\SpamBot\_internal\cv2\typing" />
+    <Folder Include="dist\SpamBot\_internal\cv2\utils" />
+    <Folder Include="dist\SpamBot\_internal\tk\" />
+    <Folder Include="dist\SpamBot\_internal\tk\images" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>0.0</Version>
+      <Description>env (Python 3.12 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
