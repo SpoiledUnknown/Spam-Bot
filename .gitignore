@@ -131,3 +131,5 @@ dmypy.json
 #others
 .vs
 .vscode
+*.sln
+*.pyproj
